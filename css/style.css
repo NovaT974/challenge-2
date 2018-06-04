@@ -1,6 +1,7 @@
 body {
     font-family: 'Raleway', sans-serif; 
     color: rgba(0,0,0,.8);
+    font-size: 16px;
 }
 
 
@@ -54,9 +55,8 @@ body {
     rgba(255, 255, 255, 0.5), 
     rgba(255, 255, 255, 0.5)
     ), url('../img/3.jpg') no-repeat;
-background-size: cover;
-height: 600px;
-color:#fff; 
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .btn_hover:hover{
@@ -76,8 +76,63 @@ color:#fff;
 }
 
 /****** SERVICES ****/
-.underline_style {
-    height: 2px;
-    width: 70px;
-    background: #50d8af;
+.underline_style{
+    width: 60px;
+    height: 3px;
+    background-color: #50d8af;
+    margin-left: 0;
 }
+
+.icon_size {
+    font-size: 50px;
+}
+
+.box_shadow {
+    -webkit-box-shadow: 8px 8px 10px 0px rgba(105,100,105,0.13);
+    -moz-box-shadow: 8px 8px 10px 0px rgba(105,100,105,0.13);
+    box-shadow: 8px 8px 10px 0px rgba(105,100,105,0.13);
+}
+/*==========================================
+            TEMOIGNAGE
+============================================*/
+.img_slide {
+    width: 150px;
+    height: 150px;
+}
+
+
+.shadow_box {
+    -webkit-box-shadow: 3px 3px 5px 5px rgba(105,100,105,0.13);
+    -moz-box-shadow: 3px 3px 5px 5px rgba(105,100,105,0.13);
+    box-shadow: 3px 3px 5px 5px rgba(105,100,105,0.13);
+}
+
+.pitch:after{
+    background: url(../img/quote-sign-left.png);
+    z-index: 3;
+}
+
+/*===========================================
+        CONTACT
+============================================*/
+.border_right {
+    border-right: 1px solid rgba(0,0,0,.2);
+}
+
+
+/*==========================================
+        ANIMATION 
+===========================================*/
+.animation {
+    animation: pulse 2s ease-in-out;
+}
+@keyframes pulse {
+	0% {
+	  opacity:0;
+	}
+	100% {
+		opacity:1;
+	}		
+}
+
+
