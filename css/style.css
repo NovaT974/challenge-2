@@ -1,0 +1,83 @@
+body {
+    font-family: 'Raleway', sans-serif; 
+    color: rgba(0,0,0,.8);
+}
+
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+/*===================================
+         COULEURS
+ ===================================*/
+/**** Bleu azurin ******/
+ .azurin-color {
+    color: #50d8af;
+}
+
+.bg_azurin-color {
+    background-color: #50d8af;
+}
+
+/******** Bleu foncé ******/
+.blueWrong-color {
+    color: #0c2e8a;
+}
+
+.bg_blueWrong-color {
+    background-color: #0c2e8a;
+}
+
+/* ==================================
+        HEADER 
+=====================================*/
+
+/**** TOP NAVIGATION ****/
+
+/*** MENU PRINCIPAL ****/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.8);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #50d8af;
+}
+/******* HEADER CALL ACTION *********/
+
+.bg {
+
+ background:linear-gradient(
+    rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.5)
+    ), url('../img/3.jpg') no-repeat;
+background-size: cover;
+height: 600px;
+color:#fff; 
+}
+
+.btn_hover:hover{
+    background-color: #3ec79e;
+}
+
+.btn-primary {
+    border-radius: 0;
+}
+
+/*========================================
+            MAIN CONTENT
+==========================================*/
+
+.bold_text {
+    font-weight: bold;
+}
+
+/****** SERVICES ****/
+.underline_style {
+    height: 2px;
+    width: 70px;
+    background: #50d8af;
+}
